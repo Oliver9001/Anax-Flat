@@ -13,18 +13,25 @@ return [
 
         // Here comes the menu structure
         "items" => [
+          "hem" => [
+              "text"  => t("hem"),
+              "url"   => $this->di->get("url")->create("index"),
+              "title" => t("Reports from kmom assignments"),
+              "mark-if-parent" => true,
+          ],
+
+
+            "about" => [
+                "text"  => t("om"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("About this website")
+            ],
 
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
-            ],
-
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
             ],
 
             "test" => [

@@ -17,8 +17,8 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "title_append"  => " | Olivers Me sida",
+            "favicon"       => "img/favicon/logo.jpg",
 
             // Style and stylesheets
             "stylesheets" => ["css/default.min.css"],
@@ -40,7 +40,7 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
+                "src" => "img/favicon/logo.jpg",
                 "alt" => "Logo",
             ],
             "sort" => 1
@@ -50,7 +50,7 @@ return [
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Anax Flat",
+                "siteLogoText"  => "Olivers Me Sida",
                 "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",

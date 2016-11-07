@@ -1,4 +1,3 @@
-####test3
+####Länkar bra att ha.
 
-* [Gitter Chat](https://gitter.im/mosbth/design)
-* [GitHub Issues](https://github.com/canax/anax-flat/issues)
+* [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
