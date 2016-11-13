@@ -14,7 +14,7 @@ return [
         // Here comes the menu structure
         "items" => [
           "hem" => [
-              "text"  => t("hem"),
+              "text"  => t("Hem"),
               "url"   => $this->di->get("url")->create("index"),
               "title" => t("Reports from kmom assignments"),
               "mark-if-parent" => true,
@@ -22,26 +22,26 @@ return [
 
 
             "about" => [
-                "text"  => t("om"),
+                "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
 
             "report" => [
-                "text"  => t("redovisning"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
             ],
 
             "test" => [
-              "text" => t("test"),
+              "text" => t("Test"),
               "url"   => $this->di->get("url")->create("test"),
               "title" => t("About this website")
             ],
 
             "markdown" => [
-                "text"  => t("markdown"),
+                "text"  => t("Markdown"),
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("markdown test")
             ],
@@ -50,7 +50,7 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -62,21 +62,41 @@ return [
         // Here comes the menu structure
         "items" => [
 
+          "hem" => [
+              "text"  => t("Hem"),
+              "url"   => $this->di->get("url")->create("index"),
+              "title" => t("Reports from kmom assignments"),
+              "mark-if-parent" => true,
+          ],
+
+
+            "about" => [
+                "text"  => t("Om"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("About this website")
+            ],
+
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+            "test" => [
+              "text" => t("Test"),
+              "url"   => $this->di->get("url")->create("test"),
+              "title" => t("About this website")
+            ],
+
+            "markdown" => [
+                "text"  => t("Markdown"),
+                "url"   => $this->di->get("url")->create("markdown"),
+                "title" => t("markdown test")
             ],
         ],
     ],
-*/
+
 
 
     /**

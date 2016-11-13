@@ -21,11 +21,16 @@ return [
             "favicon"       => "img/favicon/logo.jpg",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            //"stylesheets" => ["css/style.min.css"],
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ],
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            //"javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
 
@@ -40,7 +45,7 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/logo.jpg",
+                "src" => "img/logo.png",
                 "alt" => "Logo",
             ],
             "sort" => 1
@@ -60,14 +65,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",

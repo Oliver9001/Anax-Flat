@@ -18,7 +18,7 @@ sidan kommer byggas på efterhand, detta är en del i kmom01.
 
 
 * [Github](https://github.com/Oliver9001)
-* [Me sida](https://github.com/Oliver9001/Anax-Flat)
+* [Me sida anax-flat-theme](https://github.com/Oliver9001/anax-flat-theme)
 
 Design
 ==============================================
